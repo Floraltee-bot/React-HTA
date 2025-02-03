@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: var(--primary-blue);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.nav-bar a:hover{
+  color: goldenrod;
+}
+
+.foot{
+  margin-top: auto;
+  text-align: center;
+  background-color: var(--primary-blue);
+  padding: 10px;
+}
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --primary-blue: #007BFF; /* A vibrant blue */
+  --dark-blue: #0056b3; /* A deeper shade of blue */
+  --light-blue: #85C1E9; /* A soft light blue */
+  --black: #000000; /* Pure black */
+  --dark-gray: #333333; /* Dark gray for contrast */
+  --white: #ffffff; /* Pure white */
+}
